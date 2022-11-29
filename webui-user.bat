@@ -115,7 +115,7 @@ cls
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS= --use-cpu 'interrogate' --medvram --ckpt-dir 'D:\AI\sdwebui\models\Stable-diffusion' --ckpt 'D:\AI\uservarsdwebui\models\Stable-diffusion\sd-v1-5-pruned-emaonly.ckpt' --xformers
+set COMMANDLINE_ARGS=
 cls
 call webui.bat
 
