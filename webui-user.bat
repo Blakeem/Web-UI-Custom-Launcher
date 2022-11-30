@@ -1,5 +1,4 @@
 :: Automatic1111 Stable Diffusion web UI .bat file for users.
-:: Look for "set COMMANDLINE_ARGS=" with CTRL+F to find the area you are likely to modify. (Line 118)
 
 :: "@echo off" suppresses the printing of echo commands
 @echo off
