@@ -4,6 +4,11 @@
 :: "@echo off" suppresses the printing of echo commands
 @echo off
 
+set PYTHON=
+set GIT=
+set VENV_DIR=
+set COMMANDLINE_ARGS=
+
 :: ":menu" is a label, you can refer to a label anywhere in the code using "goto menu" in this example.
 :menu
 :: A basic menu to make things easy to read. Please note the "^" next to "|" like "^|" as "|" is a special character it needs "^" to the left of it to be considered text.
@@ -111,11 +116,6 @@ goto menu
 )
 
 :: This is where Automatic1111 Stable Diffusion web UI is called. Users will be particularly interested in line 118.
-cls
-set PYTHON=
-set GIT=
-set VENV_DIR=
-set COMMANDLINE_ARGS= --use-cpu 'interrogate' --medvram --ckpt-dir 'D:\AI\sdwebui\models\Stable-diffusion' --ckpt 'D:\AI\uservarsdwebui\models\Stable-diffusion\sd-v1-5-pruned-emaonly.ckpt' --xformers
 cls
 call webui.bat
 
